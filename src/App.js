@@ -6,7 +6,6 @@ import Header from './Components/Header/Header';
 const App = () => {
   return (
     <BrowserRouter>
-      <Header />
       <AppRouts />
     </BrowserRouter>
   );

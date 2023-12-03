@@ -1,0 +1,31 @@
+.movie-page {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: calc(100vh - 78px);
+    padding: 25px 0;
+}
+
+.movie {
+    color: white;
+    background: rgba(0, 0, 0, 0.356);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border: 1px solid rgba(0, 0, 0, 0.64);
+    padding: 30px;
+}
+
+.movie-trailer iframe {
+    max-width: 500px;
+    width: 100%;
+    aspect-ratio: 1.5/1;
+}
+
+.movie-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+}
