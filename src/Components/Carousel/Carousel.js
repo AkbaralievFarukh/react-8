@@ -18,8 +18,9 @@ const Carousel = ({ movies }) => {
     return (
         <>
             <Swiper
-                spaceBetween={30}
                 effect={'fade'}
+                slidesPerView={3}
+                spaceBetween={30}
                 // navigation={true}
                 // pagination={{
                 //     clickable: true,

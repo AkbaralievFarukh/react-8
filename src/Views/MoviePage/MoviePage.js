@@ -16,7 +16,7 @@ const MoviePage = () => {
     }, []);
 
     useEffect(() => {
-        axios(`https://api.themoviedb.org/3/movie/${id}/videos?api_key=${API_KEY}`)
+        axios(`${BASE_URL}movie/${id}/videos?api_key=${API_KEY}`)
             .then(({ data }) => setMovieTrailer(data))
     }, []);
 
