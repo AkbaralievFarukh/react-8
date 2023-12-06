@@ -10,9 +10,6 @@ const Header = () => {
                     <div className={'links'}>
                         <Link to={'/'}  className='navbar-brand'>Home</Link>
                     </div>
-                    <div className={'search-link'}>
-                        <Link to={'/search'} className='navbar-brand'>Seacrh</Link>
-                    </div>
                 </div>
             </nav>
         </header>
