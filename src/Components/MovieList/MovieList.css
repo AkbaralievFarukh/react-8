@@ -1,11 +1,24 @@
-.card {
+.card-box {
     cursor: pointer;
     transition: 0.3s;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
-.card:hover {
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(3px);
-    -webkit-backdrop-filter: blur(3px);
+.card-box:hover {
     scale: 1.01;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card-body {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
 }

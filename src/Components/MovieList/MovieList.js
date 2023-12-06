@@ -13,7 +13,7 @@ const MovieList = ({movies}) => {
             {
                 movies.map(movie => 
                     <div className='col-lg-3 col-md-6' key={movie.id}>
-                        <div className='card mt-3' onClick={() => handleClick(movie.id)}>
+                        <div className='card-box mt-3' onClick={() => handleClick(movie.id)}>
                             <img className='card-img-top' src={`${IMAGE_URL}${movie.poster_path}`} alt="" />
                             <div className='card-body'>
                                 <h3 className='card-title'>{movie.title}</h3>

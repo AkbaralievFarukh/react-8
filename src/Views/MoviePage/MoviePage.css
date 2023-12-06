@@ -2,8 +2,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: calc(100vh - 78px);
+    min-height: 100vh;
     padding: 25px 0;
+    margin-top: -80px;
 }
 
 .movie {
@@ -15,6 +16,7 @@
     -webkit-backdrop-filter: blur(3px);
     border: 1px solid rgba(0, 0, 0, 0.64);
     padding: 30px;
+    margin-top: 80px;
 }
 
 .movie-trailer iframe {

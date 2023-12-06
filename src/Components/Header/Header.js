@@ -5,7 +5,7 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <header className={"header p-3 sticky-top bg-dark "}>
+        <header className={"header p-3 sticky-top"}>
 
             <nav className="navbar navbar-dark ">
                 <div className="container-fluid justify-content-around">
