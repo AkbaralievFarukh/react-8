@@ -13,12 +13,12 @@ const MoviePage = () => {
     useEffect(() => {
         axios(`${BASE_URL}movie/${id}?language=ru-RU&api_key=${API_KEY}`)
             .then(({ data }) => setMovie(data))
-    }, []);
+    }, [id]);
 
     useEffect(() => {
         axios(`${BASE_URL}movie/${id}/videos?api_key=${API_KEY}`)
             .then(({ data }) => setMovieTrailer(data))
-    }, []);
+    }, [id]);
 
     return (
         <Layout>

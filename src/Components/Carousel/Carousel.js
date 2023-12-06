@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -21,10 +21,6 @@ const Carousel = ({ movies }) => {
                 effect={'fade'}
                 slidesPerView={3}
                 spaceBetween={30}
-                // navigation={true}
-                // pagination={{
-                //     clickable: true,
-                // }}
                 loop={true}
                 autoplay={{
                     delay: 2500,
