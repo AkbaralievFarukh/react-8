@@ -25,7 +25,7 @@ const MoviePage = () => {
             <div
                 className='movie-page'
                 style={{
-                    backgroundImage: `url(${BACKDROP_URL + movie.backdrop_path})`,
+                    backgroundImage: `url(${BACKDROP_URL}${movie.backdrop_path})`,
                 }}>
                 <div className='container'>
                     <div className='movie'>
