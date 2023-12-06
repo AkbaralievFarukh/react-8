@@ -12,7 +12,7 @@ const HomePage = () => {
     useEffect(() => {
         axios(`${BASE_URL}discover/movie/?language=ru-RU&api_key=${API_KEY}`)
             .then(({ data }) => setMovies(data.results))
-    })
+    }, [])
 
     return (
         <Layout>
