@@ -40,11 +40,11 @@ const Carousel = ({ movies }) => {
                       <SwiperSlide key={movie.id}>
                         <div className='carousel-img' style={
                             {
-                                backgroundImage: `url(${BACKDROP_URL + movie.backdrop_path})`,
+                                backgroundImage: `url(${BACKDROP_URL}${movie.backdrop_path})`,
                             }
                         }>
                             <div className='carousel-poster'>
-                                <img src={`${IMAGE_URL + movie.poster_path}`} alt="" className='carousel-poster__img' />
+                                <img src={`${IMAGE_URL}${movie.poster_path}`} alt="" className='carousel-poster__img' />
                                 <div>
                                     <h3>{movie.title}</h3>
                                     <p>{movie.vote_average}</p>
